@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net7.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="Day1_1.fs" />
+        <Compile Include="Day1_2.fs" />
+        <Compile Include="TestInputFetcher.fs" />
+        <None Include="DownloadToday.fsx" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="FsHttp" Version="12.1.0" />
+    </ItemGroup>
+
+</Project>
