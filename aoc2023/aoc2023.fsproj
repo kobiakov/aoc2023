@@ -16,4 +16,8 @@
       <PackageReference Include="FsHttp" Version="12.1.0" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Content Include=".token" />
+    </ItemGroup>
+
 </Project>
