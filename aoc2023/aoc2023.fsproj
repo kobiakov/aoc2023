@@ -6,9 +6,9 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <Compile Include="Support.fs" />
         <Compile Include="Day1_1.fs" />
         <Compile Include="Day1_2.fs" />
-        <Compile Include="TestInputFetcher.fs" />
         <None Include="DownloadToday.fsx" />
     </ItemGroup>
 
