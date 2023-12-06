@@ -10,3 +10,6 @@ let readInput (day: int) =
     |> trim
     |> splitToLines
     |> Array.toList
+    
+let splitAndTrim (sep: string) (input: string) =
+    input.Split(sep) |> Array.toList |> List.map (fun x -> x.Trim())

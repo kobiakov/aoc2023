@@ -18,6 +18,8 @@
 
     <ItemGroup>
       <Content Include=".token" />
+      <Compile Include="Day2_1.fs" />
+      <Compile Include="Day2_2.fs" />
     </ItemGroup>
 
 </Project>
